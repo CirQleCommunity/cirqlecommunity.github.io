@@ -1,2 +1,2 @@
-# CirQle.github.io
+# cirqlecommunity.github.io
 Official page
