@@ -529,7 +529,7 @@ How section
 	/*position: absolute;*/
 	height: 50%;
 	width: 50%;
-	border-radius: 50%;
+
 }
 .psection {
 	height: 800px;
@@ -538,16 +538,27 @@ How section
 .psection .how-section {
 	background-color: #ffffff;
 }
+.psection img{
+	border-radius: 50%;
+}
 
 
 .co-section{
 	height: 800px;
 	background-color: #0a183d;
 }
-.co-section .howsection{
+.co-section .how-section{
 	height: 800px;
 	background-color: #0a183d;
 }
+.co-section img{
+	border-radius: 50%;
+}
+.consection {
+	height: 800px;
+	background-color: #ffffff;
+}
+
 /* ----------------
 Concept section
  -------------------*/
