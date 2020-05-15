@@ -471,6 +471,15 @@ Hero section
 	background-image: url(../img/Story.png);
 	background-position: 800px, 0px;
 }
+.contacts-section{
+	overflow: hidden;
+}
+.contacts-section .hs-item{
+	background-size: 800px;
+	/*background-image: url(../img/Story1.png);*/
+	background-image: url(../img/Contacts.png);
+	background-position: 1150px, 0px;
+}
 /* ----------------
 Intro section
  -------------------*/
