@@ -454,6 +454,14 @@ Hero section
 	background: #fc7b02;
 }
 
+.people-section {
+	overflow: hidden;
+}
+.people-section .hs-item {
+	background-size: 1300px;
+	background-image: url(../img/People.png);
+	background-position: 900px, 0px;
+}
 /* ----------------
 Intro section
  -------------------*/
