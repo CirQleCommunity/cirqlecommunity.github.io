@@ -503,6 +503,28 @@ How section
 	opacity: 0.6;
 }
 
+.how-item img{
+	margin-left: 90px;
+	margin-bottom: 25px;
+	height: 50%;
+	width: 50%;
+	border-radius: 50%;
+}
+.psection {
+	height: 800px;
+	background-color: #ffffff;
+	}
+.psection .how-section {
+	background-color: #ffffff;
+}
+
+.co-section{
+	height: 800px;
+	background-color: #0a183d;
+}
+.co-section .howsection{
+	background-color: #0a183d;
+}
 /* ----------------
 Concept section
  -------------------*/
