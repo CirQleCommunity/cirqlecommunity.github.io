@@ -558,6 +558,9 @@ How section
 	height: 800px;
 	background-color: #ffffff;
 }
+.consection .how-item{
+	margin-top: 250px;
+}
 .consection img{
 	height: 20%;
 	width: 20%;
