@@ -77,6 +77,16 @@ $(window).on('load', function() {
 		items: 1,
 		autoplay: true
 	});
+	$('.phero-slider').owlCarousel({
+		loop: true,
+		nav: false,
+		dots: true,
+		mouseDrag: false,
+		animateOut: 'fadeOut',
+		animateIn: 'fadeIn',
+		items: 1,
+		autoplay: true
+	});
 
 
 
