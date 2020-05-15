@@ -521,12 +521,13 @@ How section
 	background-color: #ffffff;
 }
 
-}
+
 .co-section{
 	height: 800px;
 	background-color: #0a183d;
 }
 .co-section .howsection{
+	height: 800px;
 	background-color: #0a183d;
 }
 /* ----------------
