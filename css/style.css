@@ -496,6 +496,15 @@ How section
 .how-section {
 	background-color: #0a183d;
 }
+.setbackground{
+	background-color: #000000;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-image: url(../img/network-bg.jpg);
+	max-height: 100%;
+	background-size: 1000px;
+	background-position: 1300px 50px;
+}
 
 .how-item .hi-icon {
 	position: relative;
