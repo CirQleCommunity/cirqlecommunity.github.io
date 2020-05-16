@@ -19,6 +19,8 @@ var $form = $('form#Join'),
     url = 'https://script.google.com/macros/s/AKfycbzZo6igg8yqCk-giZKFmcL1ZYxkQc8cwYdFC3ZlS88hKklvXPA/exec'
 
 $('#submit-form').on('click', function(e) {
+
+
   e.preventDefault();
   var jqxhr = $.ajax({
     url: url,
