@@ -20,7 +20,7 @@ h4,
 h5,
 h6 {
 	margin: 0;
-	color: #0a183d;
+	color: #000;
 	font-weight: 600;
 	line-height: 1;
 }
@@ -126,9 +126,9 @@ Commom elements
 	border: none;
 	font-size: 14px;
 	font-weight: 500;
-	min-width: 195px;
+	min-width: 150px;
 	padding: 23px 20px;
-	border-radius: 50px;
+	border-radius: 20px;
 	text-transform: uppercase;
 	background: #000000;
 	color: #fff;
@@ -139,6 +139,7 @@ Commom elements
 
 .site-btn:hover {
 	color: #fff;
+    background-color: #383838;
 }
 
 .site-btn.sb-c2 {
@@ -234,7 +235,7 @@ bgcolor def=08192d
 
 .header-right .hr-btn {
 	display: inline-block;
-	color: #979aa5;
+	color: #fc7b02;
 }
 
 .header-right .user-panel {
@@ -243,7 +244,7 @@ bgcolor def=08192d
 
 .header-right .user-panel a {
 	font-size: 16px;
-	color: #000000;
+	color: #fc7b02;
 	margin: 0 10px;
 }
 
@@ -347,7 +348,7 @@ Hero section
 	/*#0a183d*/
 	background: #dbdbdb;
 	background-image: url(../img/logofinal.ico);
-	background-size: 400px;
+	background-size: 200px;
 	background-repeat: no-repeat;
 	background-position: 1200px, 0px;
 }
@@ -372,13 +373,6 @@ Hero section
 	margin-bottom: 50px;
 	position: relative;
 	top: 50px;
-	opacity: 0;
-}
-
-.hs-item .site-btn {
-	position: relative;
-	top: 50px;
-	margin-bottom: 20px;
 	opacity: 0;
 }
 
@@ -602,7 +596,7 @@ Subscription section
  -----------------------*/
 
 .subscription-section {
-	background: #0a183d;
+	background: #000;
 }
 
 .sub-text {
@@ -631,7 +625,7 @@ Subscription section
 
 .sub-list {
 	list-style: none;
-	background: #1c294a;
+	background: #383838;
 	padding: 23px 50px;
 	border-radius: 42px;
 }
@@ -790,7 +784,7 @@ Playlist page
 
 .search-form button {
 	position: absolute;
-	height: 60px;
+	height: 50px;
 	min-width: 167px;
 	right: 0;
 	top: 0;
@@ -1569,7 +1563,7 @@ Responsive
 	.slicknav_btn {
 		position: relative;
 		top: -24px;
-		background: #1c294a;
+		background: #000;
 	}
 	.main-menu {
 		display: none;
@@ -1686,7 +1680,7 @@ Responsive
 		margin-top: -60px;
 	}
 	.slicknav_nav {
-		background: #1c294a;
+		background: #383838;
 		margin-bottom: 35px;
 	}
 	.slicknav_nav ul {
@@ -1705,7 +1699,7 @@ Responsive
 	.slicknav_btn {
 		position: relative;
 		top: -24px;
-		background: #1c294a;
+		background: #000;
 	}
 	.main-menu {
 		display: none;
