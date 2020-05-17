@@ -500,10 +500,10 @@ How section
 	background-color: #000000;
 	overflow: hidden;
 	background-repeat: no-repeat;
-	background-image: url(../img/network-bg.jpg);
+	background-image: url(../img/qubit.jpg);
 	max-height: 100%;
-	background-size: 1000px;
-	background-position: 1300px 50px;
+	background-size: 1200px;
+	background-position: center;
 }
 
 .how-item .hi-icon {
@@ -527,7 +527,7 @@ How section
 
 .how-item p {
 	font-weight: 400;
-	opacity: 0.6;
+	opacity: 1;
 }
 
 .how-item img{
@@ -602,7 +602,7 @@ Subscription section
  -----------------------*/
 
 .subscription-section {
-	background: #0a183d;
+	background: #000000;
 }
 
 .sub-text {
@@ -631,9 +631,16 @@ Subscription section
 
 .sub-list {
 	list-style: none;
-	background: #1c294a;
-	padding: 23px 50px;
-	border-radius: 42px;
+	background: #000000;
+	padding: 0px 50px;
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border-top-style: double;
+	border-top-color: #ffffff;
+	border-top-width: thin;
+	border-bottom-style: double;
+	border-bottom-color: #ffffff;
+	border-bottom-width: thin;
 }
 
 .sub-list li {
@@ -1911,13 +1918,13 @@ News Feed
 	width:100%;
 	height:100%;
 	overflow:hidden;
-	padding:10px;
+	padding:0px;
 	font-family:Helvetica;
   }
   .holder .mask {
 	position: relative;
 	left: 0px;
-	top: 10px;
+	top: 0px;
 	width:300px;
 	height:240px;
 	overflow: hidden;
@@ -1955,7 +1962,7 @@ Join Section
 
 }
 
-#Join{
+#Join1{
 	background-image: url(../img/joinimg.png);
 	background-position: right;
 	background-size: contain;
@@ -1969,7 +1976,7 @@ Join Section
 	}
 }
 @media(max-width: 991px){
-	#Join{
+	#Join1{
 		background: none;
 	}
 }
