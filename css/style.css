@@ -557,7 +557,7 @@ How section
 	border-radius: 50%;
 }
 .consection {
-	height: 800px;
+	height: auto;
 	background-color: #ffffff;
 }
 .consection .how-item{
